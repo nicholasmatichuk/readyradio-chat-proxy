@@ -39,7 +39,7 @@ async function fetchShopifyProducts() {
   }`;
 
   try {
-    const res = await fetch(`https://${process.env.SHOPIFY_STORE_DOMAIN}/api/2024-01/graphql.json`, {
+    const res = await fetch(`https://${process.env.SHOPIFY_STORE_DOMAIN}/api/2026-04/graphql.json`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
